@@ -27,7 +27,7 @@ modules:
   path: helloworld
   build-parameters:
     build-result: dist
-    builder: custom
+    builder: evo
     commands:
     - npm run build
     supported-platforms: []
