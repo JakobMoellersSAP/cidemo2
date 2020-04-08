@@ -1,0 +1,4 @@
+applications: 
+- name: helloworld 
+  path: ./helloworld 
+  buildpack: staticfile_buildpack 

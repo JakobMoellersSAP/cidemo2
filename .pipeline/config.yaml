@@ -1,0 +1,10 @@
+steps: 
+  mtaBuild: 
+    buildTarget: 'CF' 
+  cloudFoundryDeploy: 
+    cloudFoundry: 
+      credentialsId: 'JM_CREDENTIAL' 
+      apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com' 
+      org: 'D061110trial_d061110subaccount' 
+      space: 'dev' 
+      manifest: 'cfManifest.yaml' 
