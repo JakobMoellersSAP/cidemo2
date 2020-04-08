@@ -6,7 +6,7 @@
     "@sap/ui5-builder-webide-extension": "1.0.x"
   },
   "scripts": {
-    "build": "ui5 build --include-task=generateManifestBundle generateCachebusterInfo",
+    "build": "",
     "init" : ""
   },
   "ui5": {
