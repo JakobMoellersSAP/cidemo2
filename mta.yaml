@@ -44,6 +44,3 @@ resources:
     path: ./xs-security.json
     service: xsuaa
     service-plan: application
-build-parameters:
-  before-all:
-  - builder: evo
