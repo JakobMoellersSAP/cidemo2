@@ -46,6 +46,4 @@ resources:
     service-plan: application
 build-parameters:
   before-all:
-  - builder: custom
-    commands:
-    - npm install
+  - builder: evo
