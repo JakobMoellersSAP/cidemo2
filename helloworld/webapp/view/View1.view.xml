@@ -4,7 +4,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-					    <Label text="Hello World :-) This project was made possible with Tim's help." width="100%" id="label0"/>
+					    <Label text="Hello SAP" width="100%" id="label0"/>
 					</content>
 				</Page>
 			</pages>
