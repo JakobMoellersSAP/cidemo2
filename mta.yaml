@@ -11,17 +11,6 @@ modules:
   parameters:
     disk-quota: 256M
     memory: 256M
-- name: helloworld_ui_deployer
-  type: com.sap.html5.application-content
-  path: helloworld_ui_deployer
-  requires:
-  - name: helloworld_html_repo_host
-  build-parameters:
-    requires:
-    - artifacts:
-      - ./*
-      name: helloworld
-      target-path: resources/helloworld
 - name: helloworld
   type: html5
   path: helloworld
