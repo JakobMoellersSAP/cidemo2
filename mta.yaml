@@ -26,11 +26,7 @@ modules:
   type: html5
   path: helloworld
   build-parameters:
-    build-result: dist
     builder: evo
-    commands:
-    - npm run build
-    supported-platforms: []
 resources:
 - name: helloworld_html_repo_runtime
   type: org.cloudfoundry.managed-service
