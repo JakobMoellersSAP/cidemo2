@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "",
-    "init" : ""
+    "init": ""
   },
   "ui5": {
     "dependencies": [
